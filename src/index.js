@@ -6,7 +6,7 @@ import Content from './Content';
 import './index.css';
 
 function createStore(reducer) {
-    let state = null;
+    let state = 'null';
     const listeners = [];
     const subscribe = (listener) => listeners.push(listener);
     const getState = () => state;
